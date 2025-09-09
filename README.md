@@ -90,42 +90,40 @@ Before you begin, make sure you have:
 
 
 
-## 📂 Repository Structure  
+## 📂 Repository Structure
 
-
-
+```plaintext
 octo-analyst/
 │
-├── 01\_Python/              # Python basics, Pandas, NumPy
-├── 02\_Statistics/          # Descriptive, probability, hypothesis testing
-├── 03\_Feature\_Engineering/ # Preprocessing, transformations
-├── 04\_SQL/                 # SQL queries, joins, aggregations
-├── 05\_EDA/                 # Data visualization, insights
-├── 06\_PowerBI\_Tableau/     # Dashboards and reports
-├── 07\_AWS\_Snowflake/       # Cloud workflows & data pipelines
-├── 08\_Capstone\_Projects/   # Real-world projects
+├── 01_Python/              # Python basics, Pandas, NumPy
+├── 02_Statistics/          # Descriptive, probability, hypothesis testing
+├── 03_Feature_Engineering/ # Preprocessing, transformations
+├── 04_SQL/                 # SQL queries, joins, aggregations
+├── 05_EDA/                 # Data visualization, insights
+├── 06_PowerBI_Tableau/     # Dashboards and reports
+├── 07_AWS_Snowflake/       # Cloud workflows & data pipelines
+├── 08_Capstone_Projects/   # Real-world projects
 └── README.md
 
-`
-
+```
 
 
 ## 🚀 Getting Started  
 
 1. Clone this repo:  
-   bash
-   git clone https://github.com/yourusername/octo-analyst.git
+  ``` bash
+   git clone https://github.com/jushi2/octo-analyst.git
    cd octo-analyst
-`
+```
 
 2. Create a virtual environment & install dependencies:
 
-   bash
+ ```bash
    python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
    pip install -r requirements.txt
-   
+ ```
 
 3. Start with the **Python basics** folder and progress through modules step by step.
 
